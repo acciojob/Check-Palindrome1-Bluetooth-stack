@@ -15,5 +15,4 @@ function palindrome(str){
 	}
 	return true;
 }
-// console.log(palindrome('racecare'))
 module.exports = palindrome
