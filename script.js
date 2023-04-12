@@ -3,8 +3,8 @@
 function palindrome(str){
 	str = str.toLowerCase();
 	let i = 0;
-	let j = str.length;
-	while(i<=j){
+	let j = str.length-1;
+	while(i<j){
 		if(str[i]!==str[j]){
 			return false;
 		}
@@ -15,4 +15,5 @@ function palindrome(str){
 	}
 	return true;
 }
-module.exports = palindrome
+console.log(palindrome('racecare'))
+// module.exports = palindrome
